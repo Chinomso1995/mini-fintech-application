@@ -520,6 +520,7 @@ footer{
 @media (max-width: 765px){
   body{
     overflow-x: hidden;
+    overflow-y: hidden;
   }
   #navbar{
     background-color: white;
