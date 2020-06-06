@@ -728,18 +728,28 @@ footer{
  .first-instruction span{
    margin: 20px auto;
  }
+
+.first-instruction div>p br{
+   display: none;
+ }
  .second-instruction{
    flex-direction: column;
  }
  .second-instruction span{
    margin: 20px auto;
  }
+.second-instruction div>p br{
+   display: none;
+ }
  .third-instruction{
    flex-direction: column;
  }
  .third-instruction span{
    margin: 20px auto;
- } 
+ }
+ .third-instruction div>p br{
+   display: none;
+ }
  #feature-section h1{
    font-size: 1.2rem;
  }
