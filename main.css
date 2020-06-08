@@ -605,6 +605,7 @@ footer{
     width: 300px;
   }
   .footer-container{
+    max-width: 90%;
     margin: auto;
   }
   .first-footer-container{
