@@ -422,13 +422,13 @@ footer{
     }
    
    .toggle .line1{
-     transform: rotate(-45deg) translate(-5px, 6px)
+     transform: rotate(-45deg) translate(-5px, 3px)
    }
    .toggle .line2{
       opacity: 0;
    }
    .toggle .line3{
-     transform: rotate(45deg) translate(-5px, -6px)
+     transform: rotate(45deg) translate(-5px, -3px)
    }
    
     hr{
@@ -448,6 +448,7 @@ footer{
      overflow-x: hidden;
    }
    nav{
+     
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -500,16 +501,17 @@ footer{
   }
  
  .toggle .line1{
-   transform: rotate(-45deg) translate(-5px, 6px)
+   transform: rotate(-45deg) translate(-5px, 3px)
  }
  .toggle .line2{
     opacity: 0;
  }
  .toggle .line3{
-   transform: rotate(45deg) translate(-5px, -6px)
+   transform: rotate(45deg) translate(-5px, -3px)
  }
  
   .burger{
+    
     display: block;
     cursor: pointer;
   }

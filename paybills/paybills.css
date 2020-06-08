@@ -497,13 +497,13 @@ footer{
   }
  
  .toggle .line1{
-   transform: rotate(-45deg) translate(-5px, 6px)
+   transform: rotate(-45deg) translate(-5px, 3px)
  }
  .toggle .line2{
     opacity: 0;
  }
  .toggle .line3{
-   transform: rotate(45deg) translate(-5px, -6px)
+   transform: rotate(45deg) translate(-5px, -3px)
  }
 }
 @media (max-width: 765px){
@@ -579,13 +579,13 @@ footer{
   }
  
  .toggle .line1{
-   transform: rotate(-45deg) translate(-5px, 6px)
+   transform: rotate(-45deg) translate(-5px, 3px)
  }
  .toggle .line2{
     opacity: 0;
  }
  .toggle .line3{
-   transform: rotate(45deg) translate(-5px, -6px)
+   transform: rotate(45deg) translate(-5px, -3px)
  }
  .slider-image::before{
   display: none;
