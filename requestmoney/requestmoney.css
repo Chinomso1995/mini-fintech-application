@@ -520,7 +520,6 @@ footer{
 @media (max-width: 765px){
   body{
     overflow-x: hidden;
-    
   }
   #navbar{
     background-color: white;
@@ -635,10 +634,13 @@ footer{
 }
 .instructions{
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 .first-instruction{
   flex-direction: column;
+  align-items: center;
 }
 .first-instruction span{
   margin: 20px auto;
@@ -679,9 +681,59 @@ footer{
   height: 144px;
 }
 .footer-container{
-    
-  grid-template-columns: 2fr 2fr;
-  column-gap: 40px;
+  margin: auto;
+}
+.first-footer-container{
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+.first-footer-container p{
+ 
+  font-size: 0.8rem;
+}
+.first-footer-container>div{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.first-footer-container>div div:first-of-type h3{
+  font-size: 0.9rem;
+}
+.first-footer-container>div div:first-of-type h2{
+  font-size: 1.2rem;
+}
+.second-footer-container{
+  grid-column-start: 1;
+  grid-column-end: -1;
+  padding-top: 20px;
+}
+.second-footer-container>div{
+  display: flex;
+  justify-content: space-around;
+}
+.second-footer-container-one>div h6{
+  font-size: 0.8rem;
+}
+.second-footer-container-one p{
+  font-size: 0.8rem;
+}
+.second-footer-container-two>div h6{
+  font-size: 0.8rem;
+}
+.second-footer-container-two p{
+  font-size: 0.8rem;
+}
+.fourth-footer-container span{
+  font-size: 0.8rem;
+}
+.fourth-footer-container ul{
+  font-size: 0.8rem;
+}
+.fifth-footer-container span{
+  font-size: 0.8rem;
+}
+.fifth-footer-container ul{
+  font-size: 0.8rem;
 }
 footer{
   flex-direction: column;
@@ -689,5 +741,5 @@ footer{
 }
 .footer-text{
   padding-top: 60px;
-} 
+}
 }
