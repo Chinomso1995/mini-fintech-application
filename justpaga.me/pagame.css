@@ -677,6 +677,9 @@ footer{
 }
 }
 @media screen and (max-width: 380px){
+  body{
+    overflow-x: hidden;
+   }
 
   #request-section>div img{
     width: 318px;
@@ -701,6 +704,10 @@ footer{
  }
 }
 @media screen and (max-width: 320px){
+  body{
+     overflow-x: hidden;
+    }
+  
  .first-footer-container p{
    font-size: 0.7rem;
    margin-right: 70px;
