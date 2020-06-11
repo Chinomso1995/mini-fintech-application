@@ -100,6 +100,13 @@ nav{
   background-color: #EA7326;
   color: white;
 }
+.right-nav__items button:last-of-type a{
+  color: white;
+  
+}
+.right-nav__items button:last-of-type a:hover{
+  text-decoration: none;
+}
 .burger{
   display: none;
 }
@@ -844,4 +851,35 @@ footer{
 .footer-text{
   padding-top: 60px;
 }
+}
+/* media query for smaller screen phones */
+@media screen and (max-width: 380px){
+  .footer-container{
+   width: 100vw;
+ }
+ .first-footer-container p{
+   font-size: 0.7rem;
+   margin-right: 50px;
+ }
+ .first-footer-container>div{
+   display: flex;
+   justify-content: space-around;
+   padding-top: 30px;
+   margin-right: 40px;
+ }
+ .second-footer-container>div{
+   margin-right: 50px;
+ }
+}
+@media screen and (max-width: 320px){
+ .first-footer-container p{
+   font-size: 0.7rem;
+   margin-right: 70px;
+ }
+ .second-footer-container>div{
+   margin-right: 65px;
+ }
+ 
+   
+ 
 }

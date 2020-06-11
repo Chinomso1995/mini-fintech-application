@@ -94,6 +94,13 @@ nav{
   background-color: #EA7326;
   color: white;
 }
+.right-nav__items button:last-of-type a{
+  color: white;
+  
+}
+.right-nav__items button:last-of-type a:hover{
+  text-decoration: none;
+}
 .burger{
   display: none;
 }
@@ -605,7 +612,7 @@ footer{
     width: 300px;
   }
   .footer-container{
-    max-width: 90%;
+    margin: auto;
   }
   .first-footer-container{
     grid-column-start: 1;
@@ -624,6 +631,12 @@ footer{
     font-size: 0.9rem;
   }
   .first-footer-container>div div:first-of-type h2{
+    font-size: 1.2rem;
+  }
+  .first-footer-container>div div:last-of-type h3{
+    font-size: 0.9rem;
+  }
+  .first-footer-container>div div:last-of-type h2{
     font-size: 1.2rem;
   }
   .second-footer-container{
@@ -666,4 +679,51 @@ footer{
   .footer-text{
     padding-top: 60px;
   }
+ }
+
+ /* media query for smaller screen phones */
+ @media screen and (max-width: 380px){
+   .download-container__image img{
+     margin: auto;
+     width: 318px;
+     height: 325px;
+   }
+   .download-container__text p{
+     font-size: 0.7rem;
+   }
+   .download-buttons img{
+     width: 152px;
+     height: 90px;
+   }
+   .testimonial-item p{
+     font-size: 0.7rem;
+   }
+   .footer-container{
+    width: 100vw;
+  }
+  .first-footer-container p{
+    font-size: 0.7rem;
+    margin-right: 50px;
+  }
+  .first-footer-container>div{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin-right: 40px;
+  }
+  .second-footer-container>div{
+    margin-right: 50px;
+  }
+ }
+ @media screen and (max-width: 320px){
+  .first-footer-container p{
+    font-size: 0.7rem;
+    margin-right: 70px;
+  }
+  .second-footer-container>div{
+    margin-right: 65px;
+  }
+  
+    
+  
  }

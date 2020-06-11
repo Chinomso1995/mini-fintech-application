@@ -13,3 +13,14 @@ const navSlide = ()=>{
   
 }
 navSlide();
+
+const form = document.querySelector('.right-nav__items');
+const input = document.querySelector('.input').value;
+
+form.addEventListener('submit', (e)=>{
+  if(!input.textContent){
+    document.querySelector('.input').style.border = '1px solid red'
+  }
+
+  e.preventDefault();
+})
