@@ -14,13 +14,20 @@ const navSlide = ()=>{
 }
 navSlide();
 
+//validating username input field
+
 const form = document.querySelector('.right-nav__items');
-const input = document.querySelector('.input').value;
+const input = document.querySelector('.input');
 
 form.addEventListener('submit', (e)=>{
-  if(!input.textContent){
+
+  if(input.value == ''){
     document.querySelector('.input').style.border = '1px solid red'
+  }
+  else if(input.value == 'kronika'){
+    location.assign('app/index.html')
   }
 
   e.preventDefault();
 })
+

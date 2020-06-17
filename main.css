@@ -683,10 +683,6 @@ footer{
 
  /* media query for smaller screen phones */
  @media screen and (max-width: 380px){
-   body{
-     overflow-x: hidden;
-   }
-   
    .download-container__image img{
      margin: auto;
      width: 318px;
@@ -720,10 +716,6 @@ footer{
   }
  }
  @media screen and (max-width: 320px){
-   body{
-     overflow-x: hidden;
-     }
-   
   .first-footer-container p{
     font-size: 0.7rem;
     margin-right: 70px;

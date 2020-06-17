@@ -854,10 +854,6 @@ footer{
 }
 /* media query for smaller screen phones */
 @media screen and (max-width: 380px){
-  body{
-    overflow-x: hidden;
-  }
-  
   .footer-container{
    width: 100vw;
  }
@@ -876,10 +872,6 @@ footer{
  }
 }
 @media screen and (max-width: 320px){
-  body{
-    overflow-x: hidden;
-   }
-  
  .first-footer-container p{
    font-size: 0.7rem;
    margin-right: 70px;
