@@ -1,2 +1,4 @@
 # mini-fintech-application
-I am building a mini Fintech application. My goal for this application is to be able to get account names of any account number in Nigeria. It will not be able to transfer money though. This application would be built using Paga's UI. Paga is one of the biggest Fintech companies in Nigeria. I just changed a few things. By the end of this application, I would be familiar with regular expressions, AJAX and APIs in Javascript and how they could be used to solve real world problems. This is the first version which is just the homepage. This was created with HTML, CSS and Javascript. I only used bootstrap for the carousels. 
+This is a mini fintech application that could be used to send money albeit to my own Bank Account. So please dont send any money. The UI was rebuilt with Paga's UI with some changes. Paga is one of the largest fintechs in Nigeria. The Payment App itself makes use of Paystack API. 
+
+Use 'kronika' as a username to access the payment page. This project was a great way for me to sharpen my CSS skills and really get into asyn Javascript. 
